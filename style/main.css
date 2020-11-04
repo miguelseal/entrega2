@@ -1,0 +1,45 @@
+@font-face {
+  font-family: digital;
+  src: url("./digital-7.ttf"); 
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background: lightgray url("../images/background-wall.jpg") repeat top left;
+
+}
+p, table {
+  background-color: rgb(230,230,230);
+}
+
+p {
+  font-family: digital, verdana;
+  font-size: 4rem;
+  margin: 10vh 25vw;
+  text-align: center;
+  border: solid grey 1px;
+  border-radius: 10%;
+}
+
+table {
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 2%;
+  border: solid grey 1px;
+  border-radius: 5%;
+}
+
+th, td {
+  border: solid grey 1px;;
+  /*border-collapse: collapse;*/
+  text-align: center;
+  padding: 1rem;
+}
+
+

@@ -36,7 +36,6 @@ function createFoodTable(list) {
       FOOD_TABLE_BODY.innerHTML += text;
       text = `<tr>`;
     }
-    
   }
 
 generateTableHead(foodList);
